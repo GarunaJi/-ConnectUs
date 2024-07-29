@@ -1,4 +1,4 @@
-# ConnectVita (Share Your professional Work)
+# ConnectUs (Share Your professional Work)
 
 ## Features
 
