@@ -1,0 +1,65 @@
+.loader {
+    border: 4px solid #f3f3f3;
+    border-top: 4px solid #3498db;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  /* Keyframe animation for the loader */
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+  
+  /* Optional style to center the loader */
+  .container {
+    padding-top: 73px;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    /* height: 100vh; */
+  }
+  @media (max-width: 640px) {
+    .c-mobile{
+      margin-left: 0px;
+      padding: 7px 7px;
+    }
+    .inputt-mobile {
+      height: 60px;
+      margin-top: 10px;
+      width: 100%;
+
+      padding-left: 10px;
+      /* border-radius: 10px; */
+      border: 2px solid gray;
+      /* background-color: aqua; */
+      border-radius: 6px;
+      font-size: 20px;
+    }
+    .inputt1-mobile{
+      height: 60px;
+      font-size: 20px;
+      margin-top: 5px;
+      width: 100%;
+      border-radius: 6px;
+      /* border-radius: 10px; */
+      border: 2px solid gray;
+      /* background-color: aqua; */
+      padding-left: 10px;
+  }
+  .text-mobile{
+    font-size: 50px;
+    text-align: center;
+  }
+  .mobile-hidden{
+    display: none;
+  }
+  .mobile-h{
+    height: auto;
+  }
+  .new-mobile{
+    height: 70px;
+    font-size: 20px;
+  }
+  }
+

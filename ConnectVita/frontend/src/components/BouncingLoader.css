@@ -1,0 +1,39 @@
+.bouncing-loader-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+  }
+  
+  .bouncing-loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+  }
+  
+  .bouncing-loader div {
+    width: 8px;
+    height: 8px;
+    background-color: #3498db;
+    border-radius: 50%;
+    animation: bounce 1.4s infinite ease-in-out both;
+  }
+  
+  .bouncing-loader div:nth-child(1) {
+    animation-delay: -0.32s;
+  }
+  
+  .bouncing-loader div:nth-child(2) {
+    animation-delay: -0.16s;
+  }
+  
+  @keyframes bounce {
+    0%, 80%, 100% {
+      transform: scale(0);
+    }
+    40% {
+      transform: scale(1);
+    }
+  }
+  
