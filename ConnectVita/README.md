@@ -2,7 +2,7 @@
 
 ## Features
 
-1) Created ConnectSu, a MERN stack project akin to LinkedIn</br>
+1) Created ConnectUs, a MERN stack project akin to LinkedIn</br>
 2) Enabled multimedia sharing, profile/event creation, connection requests, and profile viewing</br>
 3) Implemented direct chat functionality</br>
 
